@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        
+        var fname="Nattapol";
+        var lname="Weruwanarak";
+        var mobilNo="0857728518";
+    function myF1(){
+        document.getElementById("fname").innerHTML=fname;
+        document.getElementById("lname").innerHTML=lname;
+        document.getElementById("mobilNo").innerHTML=mobilNo;    
+    }
+    </script>
+</head>
+<body>
+    <center><h1>ทำสอบการสร้าง Function ภาษา JavaScript</h1></center>
+
+    
+    <fieldset>
+        <legend>ข้อมูลส่วนตัว</legend>
+        <table>
+            <tr>
+                <td>ชื่อ</td>
+                <td>:</td>
+                <td><b id="fname"></b></td>
+            </tr>
+            <tr>
+                <td>นามสกุล</td>
+                <td>:</td>
+                <td><b id="lname"></b></td>
+            </tr>
+            <tr>
+                <td>เบอร์โทร</td>
+                <td>:</td>
+                <td><b id="mobilNo"></b></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <center><input type="radio"> ชาย <input type="radio"> หญิง</center>
+    <center><input type="button" value="คลิก" onclick="myF1();" ></center>
+
+    
+</body>
+</html>
